@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Pet Production"
+  short_description: "Generate, validate, and install animated Codex pets"
+  default_prompt: "Use $codex-pet-production to turn my character reference and pet brief into a validated animated Codex pet package."

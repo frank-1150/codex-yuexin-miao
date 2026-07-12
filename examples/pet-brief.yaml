@@ -1,0 +1,41 @@
+display_name: "Office Cat"
+pet_id: "office-cat"
+description: "A small office cat that stays calm while helping with coding tasks."
+
+references:
+  - path: "/absolute/path/to/character-reference.png"
+    role: "character reference"
+
+identity_lock:
+  species_or_form: "chubby cat mascot"
+  silhouette: "compact full-body shape with short paws"
+  face: "simple vertical eyes and a tiny curved mouth"
+  markings: "cream ears and white body"
+  palette: "cream, white, warm brown, cobalt blue"
+  signature_prop: "small blue necktie"
+
+style:
+  preset: "sticker"
+  notes: "clean hand-drawn outline, flat pastel colors, readable at pet size"
+
+personality:
+  traits:
+    - "patient"
+    - "slightly tired"
+  story_hook: "Quietly survives long coding sessions."
+
+constraints:
+  mirror_safe: true
+  no_text: true
+  no_logo: true
+  no_shadow: true
+  avoid:
+    - "detached effects"
+    - "floating punctuation"
+    - "speed lines"
+    - "guide marks"
+
+delivery:
+  install: true
+  keep_backup: true
+  output_dir: "/absolute/path/to/output"
