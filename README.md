@@ -50,7 +50,7 @@ cp pets/yuexin-miao/spritesheet.webp ~/.codex/pets/yuexin-miao/
 `SKILL.md`、模板和生产指南位于仓库根目录。可以直接把整个仓库作为个人 Skill 安装：
 
 ```bash
-git clone https://github.com/<owner>/<repo>.git \
+git clone https://github.com/frank-1150/codex-yuexin-miao.git \
   ~/.codex/skills/codex-pet-production
 ```
 
